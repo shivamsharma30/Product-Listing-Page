@@ -1,0 +1,207 @@
+.header{
+    display: none;
+}
+.landing-page-height{
+    height: 100vh;
+}
+.row-div{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.img-div{
+    background-image: url(../images/landing.jpg);
+    background-size: cover;  
+}
+
+.search {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.search input {
+    padding: 10px;
+    width: 100%;
+    outline: 2px solid orangered;
+}
+.col-div{
+    padding: 0;
+    margin: 0;
+}
+.btn {
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border-radius:1px;
+}
+.signbtn{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    outline: none;
+    border: none;
+}
+.outer-div{
+    padding: 10px;
+
+}
+.productImg{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url();
+    background-size: contain;
+    background-repeat:no-repeat; 
+    background-position: center;
+ 
+
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: gray;
+}
+.redHeart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: red;
+}
+
+.overDiv{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+.color{
+    outline: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.colordiv{
+    display: none;
+}
+.size{
+    display: none;
+}
+.productImg:hover .colordiv{
+    
+    display: block;
+}
+.productImg:hover .size{
+   
+    display: block;
+}
+
+.panel-primary>.panel-heading {
+     color: black; 
+     background-color: white; 
+     border-color: rgb(187, 182, 182); 
+     padding: 15px;
+    } 
+.panel-primary {
+    border-color: transparent; 
+    border-bottom: 1px solid rgb(187, 182, 182); 
+}
+.panel { 
+    border-radius: 0px; 
+} 
+.panel-body { 
+    display: none; 
+    height: 250px; 
+    overflow: auto; 
+} 
+.categories{
+    padding: 5px 10px;
+}
+.clickable{ 
+    cursor: pointer; 
+} 
+.panel-heading span { 
+    margin-top: -20px; 
+    font-size: 15px; 
+}  
+.catgry > *{ 
+    font-size: 15px; 
+} 
+.span_data { 
+    font-size: 17px; 
+} 
+.ul_div {
+     padding:5px; 
+    }
+.ul_div {
+    list-style: none;
+}    
+.sidebar{
+    padding: 10px 20px;
+    background-color: white;
+}
+.filtersDiv{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(226, 223, 223); 
+}
+.background{
+    background-color:rgb(243, 235, 235);
+}
+.whiteBg{
+    
+    border-radius: 5px;
+    background-color: white;
+}
+.whiteBg:hover{
+    box-shadow: 1px 1px 10px;
+}
+@media only screen and (max-width: 992px) {
+    
+    .img-div{
+        display: none;
+    }
+    .mobile{
+        padding: 10px;
+        background-image: url(../images/landing.jpg);
+        background-size: cover; 
+    }
+    .colordiv{
+        display: block;
+    }
+    .size{
+        display: block;
+    }
+}
+
+
+/* mobile view */
+
+@media only screen and (max-width: 480px) {
+    
+    .img-div{
+        display: none;
+    }
+    .mobile{
+        padding: 10px;
+        background-image: url(../images/landing.jpg);
+        background-size: cover; 
+    }
+    .colordiv{
+        display: block;
+    }
+    .size{
+        display: block;
+    }
+}
+
+
