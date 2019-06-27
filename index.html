@@ -130,6 +130,15 @@
             </div>
 
             <div class="col-lg-10 col-div">
+                <div class="row">
+                    <div class="col-lg-12 crump"> 
+                        <b>Sort by:</b>
+                         <span id="a1" data-bind="click: function(){$root.Product.SortByPopularity();}">Popularity </span>
+                         &nbsp 
+                         <span id="a2" data-bind="click: function(){$root.Product.SortByAsecnding();}"> Price--Low to High </span>
+                         &nbsp <span id="a3" data-bind="click: function(){$root.Product.SortByDesecnding();}"> Price--High to Low </span> 
+                    </div>
+                </div>    
                 <div class="row row-div" data-bind = "foreach: $root.Products.productArray" >
                     <div class="col-lg-3 col-sm-6 outer-div background">
                         <div class= "whiteBg">
